@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100vw;
+}
+
+.body {
+    width: 100vw;
+}
+.table,
+.tableRow:nth-child(1) {
+    border: 1px solid black;
+}
+.tableRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+    padding: 5px;
+    margin: auto;
+}
